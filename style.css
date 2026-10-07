@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#foto {
+    width: 100%;
+    height: 100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.05)
+        ),
+      url("IMG_20260908_212808.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+    position: relative;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+
+    object-fit: contain;
+
+   position: absolute;
+    top: 40px;
+}
+#teks-foto {
+    padding: 20px;
+}
+
+#teks-foto p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: hwb(0 100% 0%);
+}
+
+#teks-foto h1 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#teks-foto h2 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* biar gk lupa ini namanya tombol yach */
+.tombol {
+    padding: 15px 35px;
+
+    font-size: 22px;
+
+    background: #1338c0;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.tombol:hover {
+    background: #e69f00;
+}
+
+/* media ini buat nyesuain kondisi */
+@media (max-width: 600px) {
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        top: 30px;
+    }
+
+    #teks-foto p {
+        font-size: 20px;
+    }
+
+    #teks-foto h1 {
+        font-size: 35px;
+    }
+
+    #teks-foto h2 {
+        font-size: 28px;
+    }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ .menu button{
+  width: 200;
+  height: 100;
+}
+#ketik {
+    width: 100%;
+    height: 100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.05)
+        ),
+        url("330cbf7c8e1fe85acb0fd418af977425.png");
+}
+#halow {
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+#pens {
+  padding: 100px;
+}
+#pens p {
+  font-size: 50px;
+    margin-bottom: 30px;
+    color: hwb(0 100% 0%);
+  object-fit: contain;
+
+   position: absolute;
+  top: 30;
+}}
